@@ -635,7 +635,8 @@ h3 span .link-window {
 	display: inline-block;
 	vertical-align: top;
 	max-width: 324px;
-	width: 33.333%;
+	/* width: 33.333%; */
+	width: 100%;
 }
 .item__card:not(:last-child){
 	margin: 0px 23px 0px 0px;
@@ -715,10 +716,12 @@ h3 span .link-window {
 }
 .card__item  {
 	display: inline-block;
-	width: 33.333%;
+	/* width: 33.333%; */
 	padding: 0px 0px 0px 86px;
 	vertical-align: top;
 	max-width: 325px;
+	text-align: justify;
+
 }
 .card__item:not(:last-child){
 	margin: 0px 20px 20px 0px;

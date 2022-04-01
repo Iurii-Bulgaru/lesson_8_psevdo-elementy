@@ -608,11 +608,10 @@ h3 span .link-window {
 	content: "";
 	width: 17px;
 	height: 17px;
-	background: url(../img/icons/04.png) -3px -4px no-repeat; 
-	margin: 2px 13px 0px 0px;
-	vertical-align: top;
 	display: inline-block;
-	text-align: center;
+	vertical-align: middle;
+	margin: -2px 13px 0px 0px;
+	background: url(../img/icons/04.png) center no-repeat; 
 }
 .car-rapair h1 {
 	color: #000000;
@@ -696,20 +695,19 @@ h3 span .link-window {
 }
 .container__title::before {
 	content: "";
-	width: 18px;
-	height: 21px;
-	background: url(../img/icons/04.png) 0 0 no-repeat; 
+	width: 20px;
+	height: 20px;
 	display: inline-block;
-	vertical-align: top;
-	margin:-1px 13px 0px 0px;
-	text-align: center;
+	vertical-align: middle;
+	margin: -2px 13px 0px 0px;
+	background: url(../img/icons/04.png) center no-repeat; 
 }
 .container__subtitle {
+	color:#000;
 	font-size: 36px;
 	font-weight: 900;
 	line-height: 42px;
 	letter-spacing: 0px;
-	color:#000;
 	margin: 0px 0px 68px 0px;
 }
 .card__item  {
@@ -725,7 +723,7 @@ h3 span .link-window {
 .card__title{
 	font-size: 19px;
 	font-weight: 900;
-	line-height: 26px;
+line-height: 26px;
 	letter-spacing: 0px;
 	color: #F2726F;
 	margin: 0px 0px 20px 0px;
@@ -748,9 +746,11 @@ h3 span .link-window {
 }
 /* HEALTHY FOOD=============================================== */
 .healthy {
-	font-family: "HelveticaNeueCyr";
 	font-size: 0;
+	max-width: 1440px;
+	padding: 0 50px 50px;
 	background: #191919;
+	font-family: "HelveticaNeueCyr";
 }
 .section__title{
 	margin: 0 auto;
@@ -799,15 +799,15 @@ h3 span .link-window {
 	max-width: 1110px;
 }
 .card__health {
-	display: inline-block;
 	max-width: 255px;
 	min-height: 206px;
 	border-radius: 6px;
 	vertical-align: top;
+	display: inline-block;
 	transition: all 1s ease;
-	margin: 0px 0px 50px 0px;
 	background-color: #252525;
 	padding: 24px 28px 24px 24px;
+	
 }
 .health__title::after {
 	content: "";
@@ -819,7 +819,7 @@ h3 span .link-window {
 	background-color: #34C759;
 }
 .card__health:not(:last-child) {
-	margin: 0px 30px 0px 0px;
+	margin: 0px 30px 20px 0px;
 }
 .health__title {
 	font-size: 22px;
